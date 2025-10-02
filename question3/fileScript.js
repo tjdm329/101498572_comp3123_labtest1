@@ -2,7 +2,6 @@
 //Thomas del Mundo 101498572
 
 //import module and file system
-const fs = require('fs');
 var module = require( './fileModule' );
 
 //call the module functions
