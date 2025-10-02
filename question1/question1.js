@@ -12,7 +12,7 @@ function lowerCaseWords(arr){
         }
     }
     //filter the array to only return string values,
-    //tried splicing but it will still return true or false everytime.
+    //tried splicing, but it will still return true or false everytime.
     return arr.filter((word) => typeof(word) === "string");
 }
 

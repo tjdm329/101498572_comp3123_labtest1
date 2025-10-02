@@ -4,11 +4,11 @@
 class callback {
     static resolvedPromise(){
         let success = 'Delayed Successfully';
-        console.log(success,', ', 500);
+        console.log(success);
     }
     static rejectedPromise(){
         let reject = 'Delayed Exception';
-        console.error(reject,', ', 500);
+        console.error(reject);
     }
 }
 
